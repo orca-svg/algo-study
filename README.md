@@ -77,7 +77,6 @@ Action이 실행될 때 본인 폴더로 자동 이동하기 위해 반드시 �
 ### 3-3. Variable 추가
 
 - **Name:** `BAEKJOON_ID`
-- **Value:** 본인의 백준 아이디
 
 공용 레포에 생성된 본인 디렉토리명과 반드시 동일해야 합니다.
 
@@ -91,6 +90,12 @@ Action이 실행될 때 본인 폴더로 자동 이동하기 위해 반드시 �
 2. 제출이 완료되면 BaekjoonHub가 fork 레포의 `main` 브랜치에 자동 업로드합니다.
 3. fork 레포의 **Actions** 탭으로 이동합니다.
 4. `move`라는 이름의 workflow가 정상 실행되었는지 확인합니다.
+
+### ❗️❗️❗️ 주의점이 있습니다! 
+- 레포에 현재 PR을 통한 Merge 시 리드미에 사용자별로 일주일에 몇번 PR을 넣었는지 동작하는 로직이 있습니다!
+- 그래서 다른 사람이 먼저 main에 push 한 경우 여러분이 동기화한 시점에서 달라지는 부분이 생겨서 충돌이 발생합니다!
+- 반드시 문제를 제출하기 직전에 동기화를 진행해 주세요!!!!
+<img width="720" height="540" alt="image" src="https://github.com/user-attachments/assets/5fa6dd12-f1fb-4c49-bfd0-be905ecb43dc" />
 
 <img width="720" height="540" alt="image" src="https://github.com/user-attachments/assets/c74ddb8e-5c26-4255-a6c5-aab986de2627" />
 
@@ -149,6 +154,7 @@ Action이 정상 실행되었다면, 본인 백준 아이디 폴더 내부에 �
 
 ### 동기화 완료 
 <img width="900" height="270" alt="image" src="https://github.com/user-attachments/assets/42e0cef1-cfd9-4a50-a40d-94256e4cc787" />
+
 
 
 
