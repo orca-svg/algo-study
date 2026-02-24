@@ -11,7 +11,7 @@
 | KangYeSeo04 | 1 | ❌ |
 | Nul0luN | 1 | ❌ |
 | alicebsy | 1 | ❌ |
-| orca-svg | 6 | ✅ |
+| orca-svg | 7 | ✅ |
 <!-- WEEKLY_DASHBOARD_END -->
 
 
