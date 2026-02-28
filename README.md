@@ -9,7 +9,7 @@
 | Member | Count | Status |
 |--------|-------|--------|
 | KangYeSeo04 | 4 | ❌ |
-| Nul0luN | 15 | ✅ |
+| Nul0luN | 16 | ✅ |
 | alicebsy | 2 | ❌ |
 | godten-cmd | 5 | ✅ |
 | hjxarchive | 5 | ✅ |
