@@ -9,6 +9,7 @@
 | Member | Count | Status |
 |--------|-------|--------|
 | KangYeSeo04 | 1 | ❌ |
+| LYoooJ | 1 | ❌ |
 | Nul0luN | 3 | ❌ |
 | orca-svg | 1 | ❌ |
 <!-- WEEKLY_DASHBOARD_END -->
