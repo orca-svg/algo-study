@@ -13,6 +13,7 @@
 | Nul0luN | 8 | ✅ |
 | onff02 | 4 | ❌ |
 | orca-svg | 2 | ❌ |
+| sungjaep11 | 1 | ❌ |
 <!-- WEEKLY_DASHBOARD_END -->
 
 
