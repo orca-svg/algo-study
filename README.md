@@ -8,7 +8,14 @@
 
 | Member | Count | Status |
 |--------|-------|--------|
-| - | 0 | ❌ |
+| KangYeSeo04 | 1 | ❌ |
+| LYoooJ | 2 | ❌ |
+| Nul0luN | 10 | ✅ |
+| alicebsy | 1 | ❌ |
+| onff02 | 4 | ❌ |
+| orca-svg | 3 | ❌ |
+| sungjaep11 | 2 | ❌ |
+| tomchaccom | 1 | ❌ |
 <!-- WEEKLY_DASHBOARD_END -->
 
 
