@@ -12,7 +12,7 @@
 | LYoooJ | 8 | ✅ |
 | Nul0luN | 18 | ✅ |
 | alicebsy | 5 | ✅ |
-| godten-cmd | 4 | ❌ |
+| godten-cmd | 5 | ✅ |
 | onff02 | 6 | ✅ |
 | orca-svg | 8 | ✅ |
 | sungjaep11 | 5 | ✅ |
