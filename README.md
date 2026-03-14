@@ -15,7 +15,7 @@
 | haeunjeon0410 | 8 | ✅ |
 | onff02 | 11 | ✅ |
 | orca-svg | 13 | ✅ |
-| sungjaep11 | 3 | ❌ |
+| sungjaep11 | 4 | ❌ |
 | tomchaccom | 11 | ✅ |
 <!-- WEEKLY_DASHBOARD_END -->
 
