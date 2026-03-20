@@ -13,7 +13,7 @@
 | alicebsy | 5 | ✅ |
 | haeunjeon0410 | 22 | ✅ |
 | onff02 | 13 | ✅ |
-| orca-svg | 3 | ❌ |
+| orca-svg | 4 | ❌ |
 | sungjaep11 | 7 | ✅ |
 | tomchaccom | 1 | ❌ |
 <!-- WEEKLY_DASHBOARD_END -->
