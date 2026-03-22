@@ -8,6 +8,7 @@
 
 | Member | Count | Status |
 |--------|-------|--------|
+| KangYeSeo04 | 1 | ❌ |
 | LYoooJ | 3 | ❌ |
 | Nul0luN | 23 | ✅ |
 | alicebsy | 5 | ✅ |
