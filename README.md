@@ -11,7 +11,7 @@
 | LYoooJ | 6 | ✅ |
 | Nul0luN | 6 | ✅ |
 | alicebsy | 3 | ❌ |
-| godten-cmd | 3 | ❌ |
+| godten-cmd | 4 | ❌ |
 | haeunjeon0410 | 4 | ❌ |
 | sungjaep11 | 2 | ❌ |
 | tomchaccom | 4 | ❌ |
