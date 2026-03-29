@@ -9,7 +9,7 @@
 | Member | Count | Status |
 |--------|-------|--------|
 | KangYeSeo04 | 5 | ✅ |
-| LYoooJ | 9 | ✅ |
+| LYoooJ | 10 | ✅ |
 | Nul0luN | 24 | ✅ |
 | alicebsy | 5 | ✅ |
 | godten-cmd | 8 | ✅ |
