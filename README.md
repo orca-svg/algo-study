@@ -3,21 +3,14 @@
 ## 📊 Weekly Dashboard
 
 <!-- WEEKLY_DASHBOARD_START -->
-
-📅 기준: 2026-03-30 (월요일 00:00 KST)
+📅 기준 주간 시작: 2026-05-25 (월요일 00:00 KST)
 
 | Member | Count | Status |
 |--------|-------|--------|
-| LYoooJ | 6 | ✅ |
-| Nul0luN | 14 | ✅ |
-| alicebsy | 3 | ❌ |
-| haeunjeon0410 | 10 | ✅ |
-| onff02 | 20 | ✅ |
-| orca-svg | 4 | ❌ |
-| sungjaep11 | 5 | ✅ |
-| tomchaccom | 5 | ✅ |
+| sungjaep11 | 1 | ❌ |
 <!-- WEEKLY_DASHBOARD_END -->
 
+---
 
 
 # 스터디 참여 가이드
@@ -37,7 +30,7 @@
 
 반드시 본인 계정으로 fork 해야 합니다.
 
-<img width="720" height="540" alt="image" src="https://github.com/user-attachments/assets/f32802dd-189c-47df-82ac-16353143d7e1" />
+<img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/f32802dd-189c-47df-82ac-16353143d7e1" />
 <img width="720" height="540" alt="image" src="https://github.com/user-attachments/assets/ee283224-7ca0-4556-b44b-b479027df96b" />
 
 ---
@@ -167,7 +160,6 @@ Action이 정상 실행되었다면, 본인 백준 아이디 폴더 내부에 �
 
 ### 동기화 완료 
 <img width="900" height="270" alt="image" src="https://github.com/user-attachments/assets/42e0cef1-cfd9-4a50-a40d-94256e4cc787" />
-
 
 
 

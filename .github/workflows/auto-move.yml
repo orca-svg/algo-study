@@ -1,25 +1,22 @@
 name: Auto Move Problems
-
 on:
   push:
     branches:
       - main
-
 permissions:
   contents: write
-
 jobs:
   move:
     if: github.repository_owner != 'algo-gongbu'
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v3
-
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Merge platform folders safely
         run: |
           TARGET=${{ vars.BAEKJOON_ID }}
-
           # ---------------------------
           # 1️⃣ BAEKJOON_ID 검증
           # ---------------------------
@@ -27,48 +24,62 @@ jobs:
             echo "Error: BAEKJOON_ID variable is not set."
             exit 1
           fi
-
           if [ ! -d "$TARGET" ]; then
             echo "Error: Target folder $TARGET does not exist!"
             exit 1
           fi
-
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
           MOVED=false
-
           # ---------------------------
           # 2️⃣ 처리할 플랫폼 목록
           # ---------------------------
           PLATFORMS=("백준" "프로그래머스")
-
           for PLATFORM in "${PLATFORMS[@]}"; do
             if [ -d "$PLATFORM" ]; then
               echo "Moving $PLATFORM folder..."
-
               mkdir -p "$TARGET/$PLATFORM"
-
               # 안전 병합
               rsync -av --remove-source-files "$PLATFORM/" "$TARGET/$PLATFORM/"
-
               rm -rf "$PLATFORM"
-
               MOVED=true
             fi
           done
-
           # ---------------------------
           # 3️⃣ 변경사항 커밋 및 푸시
           # ---------------------------
           if [ "$MOVED" = true ]; then
             git add .
-            git commit -m "auto: merge solved problems into $TARGET folder" || echo "No changes"
+            git commit -m "auto: merge solved problems into $TARGET folder [skip ci]"
             
-            # 원격 저장소의 최신 상태를 가져와 Rebase 수행
-            git pull --rebase origin main
+            # ⭐ 핵심: 원격의 최신 상태 가져오기
+            git fetch origin main
             
-            git push
+            # 만약 원격이 더 최신이면 rebase
+            if ! git merge-base --is-ancestor HEAD origin/main; then
+              echo "Remote is ahead, rebasing..."
+              git rebase origin/main || {
+                echo "Rebase conflict, aborting and trying force push..."
+                git rebase --abort
+                # 최후의 수단: 강제 push (주의!)
+                git push -f origin HEAD:main
+                exit 0
+              }
+            fi
+            
+            # 일반 push 시도 (최대 3회)
+            for i in {1..3}; do
+              git push origin HEAD:main && break || {
+                if [ $i -eq 3 ]; then
+                  echo "Final attempt: force push"
+                  git push -f origin HEAD:main
+                  exit 0
+                fi
+                echo "Push retry $i/3..."
+                git fetch origin main
+                sleep $((i * 2))
+              }
+            done
           else
             echo "No platform folders to move."
           fi
